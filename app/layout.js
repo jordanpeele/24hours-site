@@ -1,5 +1,3 @@
-import './globals.css'
-
 export const metadata = {
   title: '24 HOURS',
   description: 'One subject. One day. Twenty-four minutes.',
