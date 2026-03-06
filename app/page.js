@@ -29,9 +29,10 @@ export default function Home() {
   return (
     <main className={loaded ? 'loaded' : ''}>
 
-      {/* NAV — just REC + timecode, nothing else */}
+      {/* NAV — logo + REC + timecode */}
       <nav>
         <div className="nav-left">
+          <img src="/logo.png" alt="24 Hours" className="nav-logo" />
           <span className="rec"><span className="rec-dot" />REC</span>
           <TimecodeCounter />
         </div>
@@ -70,10 +71,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* FOOTER — just the line */}
       <footer>
         <div className="footer-line" />
-        <p className="credit">A COBY WORLDWIDE PRODUCTION</p>
       </footer>
 
       <style jsx>{`
@@ -121,6 +121,12 @@ export default function Home() {
           display: flex;
           align-items: center;
           gap: 1.25rem;
+        }
+
+        .nav-logo {
+          height: 24px;
+          width: auto;
+          opacity: 0.9;
         }
 
         .rec {
