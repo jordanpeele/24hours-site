@@ -65,9 +65,11 @@ export default function Home() {
       <section className="follow">
         <p className="handle">@24hoursdoc</p>
         <div className="links">
-          <a href="#">YOUTUBE</a>
-          <a href="#">TIKTOK</a>
-          <a href="#">INSTAGRAM</a>
+          <a href="https://www.youtube.com/@24.oo.oo-show" target="_blank" rel="noopener noreferrer">YOUTUBE</a>
+          <a href="https://www.tiktok.com/@24hours.mp4" target="_blank" rel="noopener noreferrer">TIKTOK</a>
+          <a href="https://www.instagram.com/24hours.show/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+          <a href="https://www.twitch.tv/24hourswith" target="_blank" rel="noopener noreferrer">TWITCH</a>
+          <a href="https://x.com/24hours_show" target="_blank" rel="noopener noreferrer">X</a>
         </div>
       </section>
 
