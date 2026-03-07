@@ -61,9 +61,9 @@ export default function Home() {
         <p className="ep-tag">Comedian. Stuck in Cairo with a pug.</p>
       </section>
 
-      {/* FOLLOW — just the handle */}
+      {/* FOLLOW */}
       <section className="follow">
-        <p className="handle">@24hoursdoc</p>
+        <p className="handle">24 HOURS</p>
         <div className="links">
           <a href="https://www.youtube.com/@24.oo.oo-show" target="_blank" rel="noopener noreferrer">YOUTUBE</a>
           <a href="https://www.tiktok.com/@24hours.mp4" target="_blank" rel="noopener noreferrer">TIKTOK</a>
